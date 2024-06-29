@@ -1,0 +1,47 @@
+* {background-color:black;}
+
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+h1 {
+    text-align: center;
+
+}
+
+h1, h2 {
+    text-decoration: underline;
+    color:steelblue;
+
+}
+
+p {
+    color: peru;
+
+}
+
+.header {
+    display: flex;
+    /* border: solid 1px blueviolet; */
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.text {
+    display: flex;
+    /* border: solid 1px wheat; */
+    justify-content: space-around;
+    width: 85%;
+}
+
+.post_01 {
+    display: flex;
+    /* border: solid 1px red; */
+
+}
