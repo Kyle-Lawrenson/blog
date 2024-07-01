@@ -45,3 +45,9 @@ p {
     /* border: solid 1px red; */
 
 }
+
+.post_02 {
+    display: flex;
+    border: solid 1px greenyellow;
+
+}
