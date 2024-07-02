@@ -1,21 +1,22 @@
-* {background-color:black;}
+* {background-color:#1F1F1F;}
 
 body {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-size: x-large;
 }
 
 
 
 h1 {
+    color: #CF61A5;
     text-align: center;
-
+    text-decoration: underline;
 }
 
-h1, h2 {
+h2 {
     text-decoration: underline;
-    color:steelblue;
+    color:#83CBF7;
 
 }
 
@@ -24,9 +25,11 @@ p {
 
 }
 
+
 .header {
     display: flex;
     /* border: solid 1px blueviolet; */
+    
     flex-direction: column;
     justify-content: space-between;
     
@@ -37,17 +40,36 @@ p {
     display: flex;
     /* border: solid 1px wheat; */
     justify-content: space-around;
-    width: 85%;
+    
 }
 
-.post_01 {
+.post_03, .post_02_pt2, .post_02_pt3 {
     display: flex;
-    /* border: solid 1px red; */
+    /* border: solid 1px hotpink;  */
+    text-align: center;
+}
 
+.post_03_img, .post_02_img {
+    display: flex;
+    /* border: solid 1px crimson; */
+    justify-content: space-around;
 }
 
 .post_02 {
     display: flex;
-    border: solid 1px greenyellow;
+    /* border: solid 1px greenyellow; */
+
+}
+
+.post_02_pt3 {
+    display: flex;
+    /* border: solid 1px whitesmoke; */
+    flex-direction: row-reverse;
+}
+
+
+.post_01 {
+    display: flex;
+    /* border: solid 1px red; */
 
 }
