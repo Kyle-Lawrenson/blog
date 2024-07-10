@@ -44,14 +44,15 @@ p {
     justify-content: space-around;
     
 }
-.post_08_pt2{
+
+.post_08_pt2, .post_09_pt2{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
 
-.post_07_img, .post_08_img {
+.post_07_img, .post_08_img, .post_09_img {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
