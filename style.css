@@ -4,8 +4,8 @@ body {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
-    padding-top:5% ;
-    padding-bottom: 5% ;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
@@ -44,7 +44,14 @@ p {
     justify-content: space-around;
     
 }
-.post_07_img{
+.post_08_pt2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post_07_img, .post_08_img {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
