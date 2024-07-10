@@ -44,6 +44,11 @@ p {
     justify-content: space-around;
     
 }
+.post_07_img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 
 .post_04, .post_03, .post_02_pt2, .post_02_pt3, .post_05, .post_06 {
     display: flex;
