@@ -58,7 +58,8 @@ p {
 
 .post_07_img,
 .post_08_img,
-.post_09_img {
+.post_09_img, 
+.post_10_img {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
