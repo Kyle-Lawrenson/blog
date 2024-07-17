@@ -9,6 +9,7 @@ body {
     padding-top: 10%;
     padding-bottom: 10%;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 
@@ -34,7 +35,6 @@ p {
 .header {
     display: flex;
     /* border: solid 1px blueviolet; */
-
     flex-direction: column;
     justify-content: space-between;
 
@@ -48,55 +48,32 @@ p {
 
 }
 
-.post_08_pt2,
-.post_09_pt2 {
+.img3 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
 
-.post_07_img,
-.post_08_img,
-.post_09_img, 
-.post_10_img {
+.img {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
-.post_04,
-.post_03,
-.post_02_pt2,
-.post_02_pt3,
-.post_05,
-.post_06 {
+.post3 {
     display: flex;
     /* border: solid 1px hotpink;  */
     text-align: center;
 }
 
-.post_03_img,
-.post_02_img {
+.img2 {
     display: flex;
     /* border: solid 1px crimson; */
     justify-content: space-around;
 }
 
-.post_02 {
-    display: flex;
-    /* border: solid 1px greenyellow; */
-
-}
-
-.post_02_pt3 {
-    display: flex;
-    /* border: solid 1px whitesmoke; */
-    flex-direction: row-reverse;
-}
-
-
-.post_01 {
+.post1 {
     display: flex;
     /* border: solid 1px red; */
 
