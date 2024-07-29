@@ -12,7 +12,9 @@ body {
     height: 100vh;
 }
 
-
+a{
+    color: #377753;
+}
 
 h1 {
     color: #CF61A5;
